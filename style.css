@@ -8,14 +8,14 @@
     scroll-behavior: smooth;
 }
 :root{
-    -moz-background-image: url("/Veb/img/body_background.jpg");
+    -moz-background-image: url("img/body_background.jpg");
     --text-color: #333d51 ;
     --big-font:5rem;
     --h2-font:3rem;
     --p-font:1.1rem;
 }
 body{
-    background-image: url("/Veb/img/body_background.jpg");
+    background-image: url("img/body_background.jpg");
     background-size: cover;
     background-position: center;
     color: var(--text-color);
@@ -83,7 +83,7 @@ section{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url("/Veb/img/home.png");
+    background-image: url("img/home.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -181,8 +181,8 @@ section{
     margin: 15px 0 30px;
 }
 .about-text p{
-line-height: 1.8;
-margin-bottom: 4rem;
+    line-height: 1.8;
+    margin-bottom: 4rem;
 
 }
 .box{
@@ -405,7 +405,7 @@ margin-bottom: 4rem;
     transition: transform 0.5s;
 }
 .layer{
-   width: 100%;
+    width: 100%;
     height: 0;
     background: linear-gradient(135deg, rgb(93, 14, 86) 0%, rgb(255, 255, 255) 100%);
     position: absolute;
@@ -541,7 +541,7 @@ h1.text{
 
 }
 .list li a{
-  display: block;
+    display: block;
     font-size: 14px;
     transition: all .45s ease;
 }
@@ -570,7 +570,7 @@ h1.text{
     position: relative;
 }
 .contact-form form input,form textarea{
-width:100%;
+    width:100%;
     padding: 14px;
     border: none;
     outline: none;
@@ -625,7 +625,7 @@ width:100%;
     }
     .end{
         padding: 15px 3%;
-        
+
 
     }
 }
@@ -642,10 +642,10 @@ width:100%;
     }
     .home{
         height:87vh ;
-        
+
     }
 
-    
+
 }
 @media (max-width:920) {
     .about{
@@ -659,7 +659,7 @@ width:100%;
     .contact{
         grid-template-columns: 1fr;
     }
-    
+
 }
 @media (max-width: 480px) {
     #menu-icon{
@@ -689,7 +689,7 @@ width:100%;
     .navlist a:active{
         color: #fdc14d;
     }
-    
+
 }
 
 .container{
@@ -718,7 +718,7 @@ main.row{
     margin: 10px;
     width: 100%;
 
-    background-image: url("/Veb/img/gradient.jpg");
+    background-image: url("img/gradient.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -728,7 +728,7 @@ section.col{
 .col h2{
     font-size: var(--h2-font);
     line-height: 1;
-   margin:  -9px;
+    margin:  -9px;
     padding-bottom: 20px;
 }
 #exp{
